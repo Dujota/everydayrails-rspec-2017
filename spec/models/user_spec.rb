@@ -55,4 +55,5 @@ RSpec.describe User, type: :model do
 
     expect(user.name).to eql("Joe Dirt") # can also do eq "Joe Dirt" or eql "Joe Dirt"
   end
+
 end
